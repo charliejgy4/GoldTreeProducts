@@ -1,8 +1,9 @@
 body {
-    background-color: green;
+    background-color: white;
     padding-top: 50px;
     margin-top: 50px;
     align-content: center;
+    text-align: center; justify-content: center;
 }
 
 h1 {
@@ -19,26 +20,28 @@ h1 {
 
 #contactHeader {
     font-family: 'Courier New', Courier, monospace;
-    color: white;
+    color: red;
 }
 
 #aboutHeader {
     font-family: 'Courier New', Courier, monospace;
-    color: white;
+    color: gray;
 }
 
 p {
     font-family: 'Courier New', Courier, monospace;
-    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-content: justify;
     padding: 50px;
-    border: 15px solid white;
+    border: 15px solid yellow;
     margin: 20px;
 
 }
 #navContainer{
     font-family: 'Courier New', Courier, monospace;
-font-size: 20px;
- border: dotted 3px white;
+font-size: 25px;
+ border: dotted 3px blue;
   width: 100%;
   display:flex;
   justify-content: center;
@@ -47,7 +50,7 @@ font-size: 20px;
 }
    
 nav {
-    border: white;
+    border: whitesmoke;
     width: 80%;
     padding-top: 20px;
     padding-bottom: 20px;
